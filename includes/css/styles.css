@@ -1,0 +1,282 @@
+     /*
+
+     My Custom CSS
+     =============
+
+     Author:  Mohammad Jamal Nabi Ashrafi
+    
+
+     */
+
+
+     /* --------------------------------------
+        Layout
+        -------------------------------------- */
+
+        footer {
+          background:#333;
+          color:#eee;
+          font-size:12px;
+          padding:20px; 
+          margin-top: 20px;
+        }
+
+
+
+     /* --------------------------------------
+        Typography
+        -------------------------------------- */
+     body{
+
+        -webkit-font-smoothing:antialiased;
+        text-rendering: optimizelegibility;
+
+     }
+    
+   
+      ul.footerListed{
+
+      list-style: none;
+      padding: 0;
+
+     }
+
+     #tabContentSec{
+
+      margin-top: 20px;
+     }
+
+     #gridContainer{
+
+     margin-top: 20px;
+
+     }
+
+
+     /* --------------------------------------
+        Navbar
+        -------------------------------------- */
+     #searchInput {
+
+        width: 200px;
+     }
+
+     .navbar-brand{
+
+        padding: 13px 15px;
+     }
+
+     #logo{
+      width: 50%;
+      height: 50%;
+     }
+
+     #navDropdown{
+     
+     background-color:black;
+
+     }
+        
+        
+     /* --------------------------------------
+        Carousel
+        -------------------------------------- */
+      #myCarousel {height:600px;
+        margin-top: 90px;}
+
+        
+
+      .carousel-caption{
+        font-size: 24px;
+      }
+
+      .carousel-caption h4{
+        font-size: 32px;
+      }
+
+      
+
+
+     /* --------------------------------------
+        Global Styles
+        -------------------------------------- */
+        
+     p {
+     font-family: 'Istok Web', sans-serif;
+     font-family: 'Noto Serif', serif;
+     font-family: 'PT Sans', sans-serif;
+      }
+
+      #videoIframe {
+        width: 100%;
+        height: 100%;
+      }
+
+
+     /* --------------------------------------
+        Media Queries
+        -------------------------------------- */
+
+     /* Portrait & landscape phone */
+     @media (max-width: 480px) {
+      
+     }
+
+     /* Landscape phone to portrait tablet */
+     @media (max-width: 1181px) {
+
+        #myCarousel .item{height: 310px;}
+
+        .carousel-caption    {
+        font-size: 16px;
+      }
+
+      .carousel-caption h4{
+        font-size: 22px;
+      }
+
+        #slide1{
+        /*background:url('../../images/carousel_large_01.jpg') top center no-repeat;*/
+        background:url('../../images/IMG1_medium.jpg') top center no-repeat   ;
+        background-size: 100% 100%;
+
+        }
+      #slide2{
+        background:url('../../images/img2_medium.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+      #slide3{
+        background:url('../../images/image3_medium.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide4{
+        background:url('../../images/image4_medium.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide5{
+        background:url('../../images/image6_medium.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide6{
+        background:url('../../images/image8_medium.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide7{
+        background:url('../../images/image9_medium.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide8{
+        background:url('../../images/image10_medium.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide9{
+        background:url('../../images/image11_medium.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide10{
+        background:url('../../images/image12_medium.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide11{
+        background:url('../../images/image13_medium.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide12{
+        background:url('../../images/image6_medium.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #logo_white{
+
+        width:50%;
+        height:50%;
+        margin-right:-10px;
+        margin-top: 0;
+        display:none;
+      }
+
+
+      
+     }
+
+     /* Large desktop */
+     @media (min-width: 1200px) {
+
+        #myCarousel .item {height: 650px;
+
+        }
+
+       
+
+        #slide1{
+        /*background:url('../../images/carousel_large_01.jpg') top center no-repeat;*/
+        background:url('../../images/cq5dam_Large.jpg')top center no-repeat   ;
+        background-size: 100% 100%;
+     /*    padding-bottom: 20px; */
+        }
+      #slide2{
+        background:url('../../images/img2_Large.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+      #slide3{
+        background:url('../../images/image3_Large.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide4{
+        background:url('../../images/image7_Large.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide5{
+        background:url('../../images/image4_Large.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide6{
+        background:url('../../images/image6_Large.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide7{
+        background:url('../../images/imag9_Large.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide8{
+        background:url('../../images/image8_Large.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide9{
+        background:url('../../images/image10_Large.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide10{
+        background:url('../../images/image11_Large.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide11{
+        background:url('../../images/image12_Large.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+      #slide12{
+        background:url('../../images/image13_Large.jpg') top center no-repeat;
+        background-size: 100% 100%;
+      }
+
+
+      
+     }
